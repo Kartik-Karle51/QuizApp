@@ -1,0 +1,100 @@
+.body-color {
+    background: linear-gradient(to right, rgba(71, 71, 241, 0.5), rgb(28, 224, 224, 0.8));
+}
+
+.box {
+  color: white;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 50px 20px rgb(82, 81, 81);
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(to left, rgba(71, 71, 241, 0.5), rgb(28, 224, 224, 0.8));
+    transform: translateY(50%);
+}
+.box .head{
+    text-align: center;
+}
+.rules{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px  0;
+
+}
+.rules li{
+    list-style-type:none;
+}
+.button{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:25%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(63, 204, 27);
+    border: none;
+}
+
+.button:hover{
+background-color:white ;
+color: rgb(63, 204, 27);
+}
+
+.option{
+    background-color: lightgray;
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#timer{
+    text-align: center;
+    color: red;
+}
+
+.selected{
+    background-color: white;
+    border: 3px solid #4caf50;
+}
+
+#next{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(237, 43, 43);
+    border: none;
+    margin-top: 10PX;
+}
+#next:hover{
+    background-color: white;
+    color:rgb(237, 43, 43) ;
+}
+.start{
+    margin-left: 40%;
+ }
+
+ .question{
+    background-color: rgb(63, 204, 27);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+ }
